@@ -1,0 +1,62 @@
+/*.modal-dialog {
+  margin: 0 auto;
+  top: 50%;
+  transform: translateY(-50%) !important;
+}*/
+
+.modal-content {
+  border: none;
+}
+
+.modal-header {
+  padding: 0;
+  border: none;
+}
+
+.nav-tabs li {
+  width: 50%;
+  background: #333;
+}
+
+.nav-tabs li:first-of-type {
+  border-top-left-radius: 4px;
+}
+
+.nav-tabs li:nth-of-type(2) {
+  border-top-right-radius: 4px;
+}
+
+.nav-tabs li a {
+  border: none !important;
+  background-color: transparent !important;
+  color: #fff !important;
+}
+
+.nav-tabs li.active {
+  background: darkturquoise;
+}
+
+/* error message */
+.error-message {
+  position: absolute;
+  bottom: 0;
+  color: #fff;
+  font-size: 18px;
+  list-style: none;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.error-message li {
+  background: #D55251;
+  padding: 20px 20%;
+}
+
+.error-message p {
+  margin: 0;
+}
+
+.error-alert {
+  border: 1px solid #D55251 !important;
+}
